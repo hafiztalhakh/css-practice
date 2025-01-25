@@ -351,3 +351,120 @@ button {
   object-fit: cover;
   border-radius: 8px;
 }
+
+/* Practice */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 100px;
+  align-items: center;
+}
+
+.navbar .nav__menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .nav__menu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.navbar .nav__menu li a:hover {
+  color: #81da76;
+}
+
+.footer {
+  padding: 60px 100px 20px;
+  background-color: #eee;
+}
+
+.top__container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.footer__left {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer__left img {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.footer__left p {
+  margin-bottom: 20px;
+  color: #5d5d5d;
+}
+
+.footer__left button {
+  background-color: #34c759;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.footer__right {
+  display: flex;
+  gap: 60px;
+}
+
+.footer__right .quick-links h3,
+.footer__right .resources h3,
+.footer__right .social h3 {
+  color: #121111;
+  margin-bottom: 20px;
+}
+
+.footer__right .footer__links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__right .footer__links li a {
+  display: block;
+  text-decoration: none;
+  font-weight: 400;
+  color: #5d5d5d;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.footer__right .footer__links li a:hover {
+  color: #34c759;
+}
+
+.footer__right .social .footer__links {
+  display: flex;
+  gap: 15px;
+}
+
+.footer__right .social .footer__links li a {
+  color: #5d5d5d;
+  font-size: 20px;
+}
+
+.footer__right .social .footer__links li a:hover {
+  color: #34c759;
+}
+
+.footer__bottom {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 20px;
+  text-align: center;
+  color: #5d5d5d;
+}
+
+.footer__button:hover {
+  background-color: #2db14e;
+}
